@@ -9,7 +9,7 @@ const DynamicBackground = ({ children }) => {
       const maxScroll = document.body.scrollHeight - window.innerHeight;
 
       const percent = scrollTop / maxScroll;
-      const blue = Math.round(30 * (1 - percent)); // de 255 a 0
+      const blue = Math.round(30 * (1 - percent));
       const color = `rgb(0, 0, ${blue})`;
 
       setBgColor(color);
