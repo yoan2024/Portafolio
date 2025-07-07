@@ -9,7 +9,7 @@ import Certificaciones from "./components/Certificaciones";
 const App = () => {
   return (
     <DynamicBackground>
-      <div className="min-h-screen  flex flex-col items-center">
+      <div className="min-h-screen  flex flex-col items-center py-20">
         <div>
           <div className="flex flex-col gap-16">
             <InfoBasica />

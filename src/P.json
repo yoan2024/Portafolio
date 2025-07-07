@@ -9,6 +9,18 @@
     "id": 2,
     "title": "Gestor de Tareas",
     "description": "App para organizar tareas, guardar en localStorage y manejar estados con hooks.",
-    "techs": ["react", "javascript", "html5", "css3"]
+    "techs": ["react", "javascript", "html5"]
+  },
+  {
+    "id": 3,
+    "title": "Gestor de Tareas",
+    "description": "App para organizar tareas, guardar en localStorage y manejar estados con hooks.",
+    "techs": ["react", "javascript", "html5"]
+  },
+  {
+    "id": 4,
+    "title": "Gestor de Tareas",
+    "description": "App para organizar tareas, guardar en localStorage y manejar estados con hooks.",
+    "techs": ["react", "javascript", "html5"]
   }
 ]

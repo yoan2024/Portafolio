@@ -10,13 +10,13 @@ const TarjetaProjecto = ({ title, description, techs }) => {
     vite: "Vite",
   };
   return (
-    <div className="border-solid border-2 flex flex-col justify-between border-white rounded-xl p-6 shadow-md hover:shadow-lg w-60 transition">
+    <div className="border-solid border-2 flex flex-col justify-between border-white rounded-xl p-6 shadow-md hover:shadow-lg w-60 h-80 transition">
       <div>
         {" "}
         <h2 className="text-xl font-bold text-white">{title}</h2>
         <p className="text-slate-400 mt-2 mb-4">{description}</p>
       </div>
-      <div className="flex flex-wrap gap-1">
+      <div className="flex flex-wrap gap-2 ">
         {techs.map((tech) => {
           const iconName =
             "Si" +
@@ -25,10 +25,9 @@ const TarjetaProjecto = ({ title, description, techs }) => {
           return Icon ? (
             <div
               key={tech}
-              className="flex items-center gap-1 text-slate-400 text-sm"
+              className="bg-slate-800 p-1 rounded-xl text-slate-400 text-sm"
             >
-              <Icon className="w-5 h-5" />
-              <span>{tech}</span>
+              <span className="text-white font-bold">{tech}</span>
             </div>
           ) : (
             <span key={tech}>{tech}</span>
