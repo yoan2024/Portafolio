@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Reproductor de Música",
+    "description": "Aplicación web que permite reproducir música con una interfaz moderna, creada con React y Tailwind CSS.",
+    "techs": ["react", "tailwindcss", "vite"]
+  },
+  {
+    "id": 2,
+    "title": "Gestor de Tareas",
+    "description": "App para organizar tareas, guardar en localStorage y manejar estados con hooks.",
+    "techs": ["react", "javascript", "html5", "css3"]
+  }
+]
