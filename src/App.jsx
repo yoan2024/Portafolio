@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <DynamicBackground>
         <Asidebar />
-        <div className="min-h-screen w-8/12 ml-96 max-md:ml-40 flex flex-col items-center py-16">
+        <div className="min-h-screen ml-0 sm:ml-36 md:ml-80 flex flex-col items-center w-full  py-16 px-4 ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/habilidades" element={<Habilidades />} />

@@ -10,7 +10,7 @@ const Projectos = () => {
             {/*mi nombre*/}
             Projectos
           </div>
-          <div className=" flex flex-row  flex-wrap gap-4 max-w-3xl">
+          <div className=" flex flex-row justify-center  flex-wrap gap-4 max-w-3xl">
             {projects.map((p, index) => {
               return (
                 <TarjetaProjecto

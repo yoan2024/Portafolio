@@ -26,7 +26,7 @@ const DynamicBackground = ({ children }) => {
         transition: "background 0.2s ease",
         minHeight: "100vh",
       }}
-      className="flex flex-row justify-between"
+      className="flex flex-col md:flex-row w-full"
     >
       {children}
     </div>
