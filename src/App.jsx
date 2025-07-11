@@ -1,25 +1,24 @@
 import DynamicBackground from "./components/DynamicBackground";
-import InfoBasica from "./components/InfoBasica";
-import ExperienciaLaboral from "./components/ExperienciaLaboral";
-import Educacion from "./components/Educacion";
-import Projectos from "./components/Projectos";
-import Habilidades from "./components/Habilidades";
-import Certificaciones from "./components/Certificaciones";
+import Asidebar from "./components/Asidebar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./page/Home";
+import Habilidades from "./page/Habilidades";
+import Projectos from "./page/Projectos";
+import Contacto from "./page/Contacto";
 
 const App = () => {
   return (
     <DynamicBackground>
-      <div className="min-h-screen  flex flex-col items-center py-20">
-        <div>
-          <div className="flex flex-col gap-16">
-            <InfoBasica />
-            {/* <ExperienciaLaboral />
-          <Educacion />*/}
-            <Projectos />
-            <Habilidades />
-            {/*<Certificaciones />*/}
-          </div>
-        </div>
+      <Asidebar />
+      <div className="min-h-screen  w-9/12  flex flex-col items-center py-16">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/habilidades" element={<Habilidades />} />
+            <Route path="/projectos" element={<Projectos />} />
+            <Route path="/contacto" element={<Contacto />} />
+          </Routes>
+        </Router>
       </div>
     </DynamicBackground>
   );
