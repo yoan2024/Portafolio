@@ -35,7 +35,7 @@ const Asidebar = () => {
     }
   };
   return (
-    <div className="text-white w-1/5 max-md:w-3/12 bg-gray-900 flex flex-col fixed h-screen justify-between">
+    <div className="text-white w-32 md:w-72 lg:w-80 bg-gray-900 flex flex-col fixed h-screen justify-between">
       <div>
         {" "}
         <img src="/image/logo.png" alt="" />
