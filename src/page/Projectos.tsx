@@ -19,6 +19,8 @@ const Projectos = () => {
                   description={p.description}
                   techs={p.techs}
                   link={p.link}
+                  img={p.image}
+                  github={p.github}
                 />
               );
             })}

@@ -4,13 +4,17 @@
     "title": "Ecomerce de ropa",
     "description": "Este es un ecomerce de ropa con panel de administrador donde el ususario podra hacer compras de ropa y el admin podra administrar la web.Este ecomerce lo hice para aprender sobre auth de inicio de sesion y crear una sesion con firebase.",
     "techs": ["react", "tailwindcss", "vite", "Firebase"],
-    "link": "https://e-shop-clothing.vercel.app/"
+    "link": "https://e-shop-clothing.vercel.app/",
+    "image": "/image/ecomerce-ropa.png",
+    "github": "https://github.com/yoan2024/e-shop-clothing"
   },
   {
     "id": 2,
     "title": "Ecomerce de autos",
     "description": "Este es un ecomerce de autos donde aprendi arquitectura de componentes y como se estructura un ecomerce.",
     "techs": ["react", "tailwindcss", "vite"],
-    "link": "https://ecomerce-autos-8bxn.vercel.app/"
+    "link": "https://ecomerce-autos-8bxn.vercel.app/",
+    "image": "/image/ecomerce-autos.PNG",
+    "github": "https://github.com/yoan2024/Ecomerce-Autos"
   }
 ]
