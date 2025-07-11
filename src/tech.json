@@ -1,12 +1,1 @@
-[
-  "react",
-  "tailwind",
-  "html",
-  "css",
-  "git",
-  "github",
-  "javascript",
-  "vscode",
-  "windows",
-  "firebase"
-]
+["react", "tailwind", "html", "css", "git", "github", "javascript", "firebase"]
