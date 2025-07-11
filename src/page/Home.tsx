@@ -15,9 +15,9 @@ const Home = () => {
               del usuario...
             </p>
             <img
-              src="/image/foto.webp"
+              src="/image/sebas.jpeg"
               alt="Foto  Yoan"
-              className="w-40 h-40 rounded-full object-cover shadow-lg"
+              className="w-60 h-60 rounded-full object-cover shadow-lg"
             />
           </div>
 
