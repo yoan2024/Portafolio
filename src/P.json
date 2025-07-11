@@ -1,26 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Reproductor de Música",
-    "description": "Aplicación web que permite reproducir música con una interfaz moderna, creada con React y Tailwind CSS.",
-    "techs": ["react", "tailwindcss", "vite"]
+    "title": "Ecomerce de ropa",
+    "description": "Este es un ecomerce de ropa con panel de administrador donde el ususario podra hacer compras de ropa y el admin podra administrar la web.Este ecomerce lo hice para aprender sobre auth de inicio de sesion y crear una sesion con firebase.",
+    "techs": ["react", "tailwindcss", "vite", "Firebase"],
+    "link": "https://e-shop-clothing-1cnm-oci9li1l1.vercel.app/"
   },
   {
     "id": 2,
-    "title": "Gestor de Tareas",
-    "description": "App para organizar tareas, guardar en localStorage y manejar estados con hooks.",
-    "techs": ["react", "javascript", "html5"]
-  },
-  {
-    "id": 3,
-    "title": "Gestor de Tareas",
-    "description": "App para organizar tareas, guardar en localStorage y manejar estados con hooks.",
-    "techs": ["react", "javascript", "html5"]
-  },
-  {
-    "id": 4,
-    "title": "Gestor de Tareas",
-    "description": "App para organizar tareas, guardar en localStorage y manejar estados con hooks.",
-    "techs": ["react", "javascript", "html5"]
+    "title": "Ecomerce de autos",
+    "description": "Este es un ecomerce de autos donde aprendi arquitectura de componentes y como se estructura un ecomerce.",
+    "techs": ["react", "tailwindcss", "vite"],
+    "link": "https://ecomerce-autos-8bxn.vercel.app/"
   }
 ]

@@ -18,6 +18,7 @@ const Projectos = () => {
                 title={p.title}
                 description={p.description}
                 techs={p.techs}
+                link={p.link}
               />
             );
           })}
