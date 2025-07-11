@@ -34,7 +34,7 @@ const Contacto = () => {
         </a>
 
         <a
-          href="https://github.com/tuusuario"
+          href="https://github.com/yoan2024"
           target="_blank"
           rel="noopener noreferrer"
           className="transition duration-300 flex flex-col items-center text-white hover:text-black "
@@ -50,7 +50,7 @@ const Contacto = () => {
         </div>
         <div className="lg:border-r-2 lg:px-1 lg:border-white">
           <div>Correo electronico:</div>
-          <div>yoansebastianramirezgarcia@gmailcom</div>
+          <div>yoansebastianramirezgarcia@gmail.com</div>
         </div>
         <div className="lg:border-r-2 lg:px-1 lg:border-white">
           <div>Mi hoja de vida</div>

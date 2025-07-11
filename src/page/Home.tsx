@@ -15,7 +15,7 @@ const Home = () => {
               del usuario...
             </p>
             <img
-              src="/image/sebas.jpeg"
+              src="/image/ftperfil.jpeg"
               alt="Foto  Yoan"
               className="w-60 h-60 rounded-full object-cover shadow-lg"
             />
