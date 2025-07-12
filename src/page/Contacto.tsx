@@ -7,6 +7,7 @@ const Contacto = () => {
       <h1 className="text-5xl font-bold text-center mb-6">
         ¿Cómo contactarme?
       </h1>
+
       <h2 className="text-2xl text-center max-w-xl text-gray-300 mb-8">
         Si deseas contactarme, puedes hacerlo por cualquiera de los siguientes
         medios:
@@ -24,7 +25,7 @@ const Contacto = () => {
         </a>
 
         <a
-          href="https://linkedin.com/in/tuusuario"
+          href="https://www.linkedin.com/in/yoan-sebastian-ramirez-garcia-a05343331/"
           target="_blank"
           rel="noopener noreferrer"
           className="transition flex flex-col items-center duration-300 text-white hover:text-blue-500"
