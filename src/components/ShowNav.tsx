@@ -43,7 +43,10 @@ const ShowNav = () => {
 
   return (
     <>
-      <div className="self-start mb-5 w-9 h-9" onClick={() => setShow(!show)}>
+      <div
+        className="self-start mb-5 w-9 h-9 sm:hidden"
+        onClick={() => setShow(!show)}
+      >
         <Menu className="w-full h-full text-white border-2 border-solid border-white" />
       </div>
       {show && (
