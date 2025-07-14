@@ -16,9 +16,9 @@ const App = () => {
         <div className="min-h-screen ml-0 sm:ml-36 md:ml-80 flex flex-col items-center w-full  py-16 px-4 ">
           <ShowNav />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Projectos />} />
             <Route path="/habilidades" element={<Habilidades />} />
-            <Route path="/projectos" element={<Projectos />} />
+            <Route path="/sobre-mi" element={<Home />} />
             <Route path="/contacto" element={<Contacto />} />
           </Routes>
         </div>

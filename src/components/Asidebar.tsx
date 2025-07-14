@@ -10,12 +10,16 @@ const Asidebar = () => {
     const url = location.pathname;
     function confiBg() {
       if (url === "/") {
+        setUseBg("/");
         console.log(url);
       } else if (url === "/habilidades") {
+        setUseBg("/habilidades");
         console.log(url);
-      } else if (url === "/projectos") {
+      } else if (url === "/sobre-mi") {
+        setUseBg("/sobre-mi");
         console.log(url);
-      } else if (url === "contactos") {
+      } else if (url === "/contacto") {
+        setUseBg("/contacto");
         console.log(url);
       }
     }
@@ -24,12 +28,12 @@ const Asidebar = () => {
   }, [location]);
 
   const handleRouter = (e) => {
-    if (e === "inicio") {
-      navigate("/");
+    if (e === "sobre-mi") {
+      navigate("/sobre-mi");
     } else if (e === "habilidades") {
       navigate("/habilidades");
-    } else if (e === "projectos") {
-      navigate("/projectos");
+    } else if (e === "proyectos") {
+      navigate("/");
     } else if (e === "contactos") {
       navigate("/contacto");
     }
@@ -42,28 +46,38 @@ const Asidebar = () => {
       </div>
       <div className="mb-10 flex flex-col gap-4">
         <div
-          className="p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500"
-          onClick={() => handleRouter("inicio")}
+          className={`p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500 ${
+            useBg === "/" ? "bg-slate-400" : ""
+          }`}
+          onClick={() => handleRouter("proyectos")}
         >
-          Inicio
+          Proyectos
         </div>
+
         <div
-          className="p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500"
+          className={`p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500 ${
+            useBg === "/habilidades" ? "bg-slate-400" : ""
+          }`}
           onClick={() => handleRouter("habilidades")}
         >
           Habilidades
         </div>
+
         <div
-          className="p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500"
-          onClick={() => handleRouter("projectos")}
-        >
-          Projectos
-        </div>
-        <div
-          className="p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500"
+          className={`p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500 ${
+            useBg === "/contacto" ? "bg-slate-400" : ""
+          }`}
           onClick={() => handleRouter("contactos")}
         >
           Contactos
+        </div>
+        <div
+          className={`p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500 ${
+            useBg === "/sobre-mi" ? "bg-slate-400" : ""
+          }`}
+          onClick={() => handleRouter("sobre-mi")}
+        >
+          Sobre mi
         </div>
       </div>
     </div>
