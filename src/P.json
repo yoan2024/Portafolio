@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Ecomerce de ropa",
-    "description": "Este es un ecomerce de ropa con panel de administrador donde el ususario podra hacer compras de ropa y el admin podra administrar la web.Este ecomerce lo hice para aprender sobre auth de inicio de sesion y crear una sesion con firebase.",
+    "title": "E-commerce de Ropa",
+    "description": "Este es un e-commerce de ropa con panel de administración, donde el administrador puede gestionar productos y usuarios. Los clientes pueden registrarse, iniciar sesión y realizar compras.Este proyecto lo desarrollé para aprender sobre autenticación de usuarios e implementación de sesiones usando Firebase.",
     "techs": ["react", "tailwindcss", "vite", "Firebase"],
     "link": "https://e-shop-clothing.vercel.app/",
     "image": "/image/ecomerce-ropa.png",
@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "title": "Ecomerce de autos",
-    "description": "Este es un ecomerce de autos donde aprendi arquitectura de componentes y como se estructura un ecomerce.",
+    "title": "E-commerce de Autos",
+    "description": "Este proyecto es una tienda virtual de autos desarrollada con React y TailwindCSS.Me permitió aprender sobre arquitectura de componentes y entender cómo se estructura un e-commerce moderno, desde el diseño hasta el manejo del estado y la navegación",
     "techs": ["react", "tailwindcss", "vite"],
     "link": "https://ecomerce-autos-8bxn.vercel.app/",
     "image": "/image/ecomerce-autos.PNG",

@@ -15,7 +15,7 @@ const Contacto = () => {
 
       <div className="flex gap-8 text-white">
         <a
-          href="https://wa.me/573001112233"
+          href="https://wa.me/573137244529"
           target="_blank"
           rel="noopener noreferrer"
           className="transition flex-col items-center flex duration-300 text-white hover:text-green-500"
