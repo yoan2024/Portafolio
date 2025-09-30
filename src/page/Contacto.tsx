@@ -54,8 +54,16 @@ const Contacto = () => {
           <div>yoansebastianramirezgarcia@gmail.com</div>
         </div>
         <div className="lg:border-r-2 lg:px-1 lg:border-white">
-          <div>Mi hoja de vida</div>
-          <div>Descargar hoja de vida</div>
+           <div>Mi hoja de vida</div>
+       <div>
+       <a 
+      href="/CV-Yoan-Sebastian.docx" 
+      download 
+      className="text-blue-400 hover:underline"
+    >
+      Descargar hoja de vida
+    </a>
+      </div>
         </div>
       </div>
     </div>
