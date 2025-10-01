@@ -57,7 +57,7 @@ const Contacto = () => {
            <div>Mi hoja de vida</div>
        <div>
        <a 
-      href="/CV-Yoan-Sebastian.docx" 
+      href="/CV_Yoan_Sebastian_Ramirez_Garcia.docx"   
       download 
       className="text-blue-400 hover:underline"
     >
