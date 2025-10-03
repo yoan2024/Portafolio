@@ -3,12 +3,10 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Contacto = () => {
   return (
-    <div className="text-white w-full  flex flex-col justify-center  items-center  h-full">
-      <h1 className="text-5xl font-bold text-center mb-6">
-        ¿Cómo contactarme?
-      </h1>
+    <div className="text-white w-full  flex flex-col items-center" id="contacto">
+      <h1 className="text-5xl text-slate-500 font-bold mb-20">¿Como contactarme?</h1>
 
-      <h2 className="text-2xl text-center max-w-xl text-gray-300 mb-8">
+      <h2 className="text-2xl  max-w-xl text-gray-300 mb-8">
         Si deseas contactarme, puedes hacerlo por cualquiera de los siguientes
         medios:
       </h2>
@@ -18,7 +16,7 @@ const Contacto = () => {
           href="https://wa.me/573137244529"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition flex-col items-center flex duration-300 text-white hover:text-green-500"
+          className="transition flex-col flex duration-300 text-white hover:text-green-500"
         >
           <FaWhatsapp className="w-16 h-16 sm:w-20 sm:h-20" />
           <span>WhatsApp</span>
@@ -28,7 +26,7 @@ const Contacto = () => {
           href="https://www.linkedin.com/in/yoan-sebastian-ramirez-garcia-a05343331/"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition flex flex-col items-center duration-300 text-white hover:text-blue-500"
+          className="transition flex flex-col  duration-300 text-white hover:text-blue-500"
         >
           <LinkedinIcon className="w-16 h-16 sm:w-20 sm:h-20" />
           <span>Linkedin</span>
@@ -38,7 +36,7 @@ const Contacto = () => {
           href="https://github.com/yoan2024"
           target="_blank"
           rel="noopener noreferrer"
-          className="transition duration-300 flex flex-col items-center text-white hover:text-black "
+          className="transition duration-300 flex flex-col  text-white hover:text-black "
         >
           <GithubIcon className="w-16 h-16 sm:w-20 sm:h-20" />
           <span>Github</span>

@@ -1,7 +1,8 @@
-import habilidadesblandas from "../habilidadesBlandas.json";
-import tech from "../tech.json";
+import tech from "../tech.json"
 import habilidadesPendientes from "../habilidadesPendientes.json";
 import * as SI from "react-icons/si";
+
+
 
 const Habilidades = () => {
   const fixNames = {
@@ -18,12 +19,12 @@ const Habilidades = () => {
   };
 
   return (
-    <div className="text-white w-full flex flex-col items-center    h-full px-5">
+    <div className="text-white  flex flex-col" id="habilidades">
       <div className="mt-10">
-        <h1 className="text-4xl font-bold">Habilidades conocidas</h1>
+        <h1 className="text-5xl text-slate-500  font-bold">Habilidades conocidas</h1>
       </div>
-      <div className="w-full  bg-slate-900 mt-10 flex flex-row justify-center p-2 rounded-xl gap-5 flex-wrap">
-        {tech.map((t, idx) => {
+      <div className="w-full   mt-10 flex flex-row  justify-center  gap-5 flex-wrap">
+        {tech.map(( t  , idx) => {
           const entry = fixNames[t];
           const iconName =
             "Si" + (fixNames[t].name || t.charAt(0).toUpperCase() + t.slice(1));
@@ -32,11 +33,11 @@ const Habilidades = () => {
           return Icon ? (
             <div
               key={idx}
-              className="flex items-center justify-center flex-col bg-slate-800 gap-2 w-24 h-24"
+              className="flex items-center rounded-xl justify-center flex-col bg-slate-800 gap-2 w-24 h-24"
             >
               <div>{fixNames[t].name}</div>
               <Icon
-                style={{ color: entry?.color || "white" }}
+                style={{ color: entry.color || "white" }}
                 className="text-4xl"
               />
             </div>
@@ -45,12 +46,10 @@ const Habilidades = () => {
           );
         })}
       </div>
-      <div className="mt-10">
-        <h1 className="text-4xl font-bold">
-          Habilidades pendientes o en proceso
-        </h1>
+      <div className="mt-20">
+        <h1 className="text-5xl text-slate-500 font-bold">Habilidades pendientes o en proceso</h1>
       </div>
-      <div className="w-full  bg-slate-900 mt-10 flex flex-row justify-center p-2 rounded-xl gap-5 flex-wrap">
+      <div className="w-full justify-center   mt-10 flex flex-row  p-2 rounded-xl gap-5 flex-wrap">
         {habilidadesPendientes.map((t, idx) => {
           const nameicon = t.icon;
           const Icon = nameicon ? SI[nameicon] : null;
@@ -58,7 +57,7 @@ const Habilidades = () => {
           return Icon ? (
             <div
               key={idx}
-              className="flex items-center justify-center flex-col bg-slate-800 gap-2 w-24 h-24"
+              className="flex items-center justify-center flex-col bg-slate-800 rounded-xl gap-2 w-24 h-24"
             >
               <div>{t.name}</div>
               <Icon

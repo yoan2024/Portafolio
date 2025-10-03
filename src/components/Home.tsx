@@ -1,9 +1,9 @@
 const Home = () => {
   return (
-    <div className="text-white w-full    h-full px-5">
+    <div className="text-white w-full" id="home">
       <div>
         <div>
-          <h1 className="text-7xl text-slate-500 font-bold">Sobre mi</h1>
+          <h1 className="text-5xl text-slate-500 mb-20 font-bold">Sobre mi</h1>
         </div>
         <div className="mt-8">
           <h2 className="text-3xl">Hola, soy Yoan Sebastian Ramirez Garcia</h2>
@@ -12,7 +12,7 @@ const Home = () => {
             <p className="text-lg leading-relaxed">
               Bienvenido a mi portafolio. Soy desarrollador frontend con pasión
               por el diseño web moderno, funcional y centrado en la experiencia
-              del usuario...
+              del usuario
             </p>
             <img
               src="/image/ftperfil.jpeg"
@@ -22,7 +22,7 @@ const Home = () => {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-3xl font-bold">Que hago?</h2>
+            <h2 className="text-3xl font-bold">¿Que hago?</h2>
             <div>
               Actualmente me enfoco en el desarrollo frontend, creando
               aplicaciones web con tecnologías modernas (que verás en la sección

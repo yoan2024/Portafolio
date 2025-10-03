@@ -1,15 +1,15 @@
 import projects from "../P.json";
-import TarjetaProjecto from "../components/TarjetProjecto";
+import TarjetaProyecto from "./TarjetProyecto";
 
 const Projectos = () => {
   return (
-    <div className="text-white w-full h-full px-5">
+    <div className="text-white">
       <div>
         <div className="flex flex-col gap-3 ">
           <div className=" flex flex-row justify-center  flex-wrap gap-4 max-w-3xl">
             {projects.map((p, index) => {
               return (
-                <TarjetaProjecto
+                <TarjetaProyecto
                   key={index}
                   title={p.title}
                   description={p.description}
@@ -26,4 +26,4 @@ const Projectos = () => {
     </div>
   );
 };
-export default Projectos;
+export default Proyectos;
