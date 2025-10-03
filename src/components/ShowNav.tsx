@@ -16,7 +16,7 @@ const ShowNav = () => {
       {show && (
         <div className="text-white font-serif  max-sm:flex h-fit   mb-10 hidden w-fit bg-slate-800">
           <div className="flex flex-row gap-4">
-      <HashLink smooth to="#projectos" className="p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500 block">
+      <HashLink smooth to="#proyectos" className="p-4 hover:bg-slate-400 cursor-pointer rounded-lg transition-colors duration-500 block">
        Proyectos
        </HashLink>
 
