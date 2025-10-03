@@ -39,7 +39,7 @@ const Asidebar = () => {
     }
   };
   return (
-    <div className="hidden sm:flex w-32 md:w-72 lg:w-80 bg-gray-900 fixed h-screen flex-col justify-between">
+    <div className="hidden sm:flex w-32 text-white font-serif md:w-72 lg:w-80 bg-gray-900 fixed h-screen flex-col justify-between">
       <div>
         {" "}
         <img src="/image/logo.png" alt="" />
